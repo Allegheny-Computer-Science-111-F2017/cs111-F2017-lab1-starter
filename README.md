@@ -1,7 +1,7 @@
 # cs111-F2017-lab1
 
 Designed for use with [GitHub Classroom](https://classroom.github.com/), this
-repository contains the solution for Laboratory 1 in Computer Science 111.
+repository contains the starter files for Laboratory 1 in Computer Science 111.
 
 ## Introduction
 
