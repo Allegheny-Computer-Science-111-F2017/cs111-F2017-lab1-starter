@@ -191,7 +191,7 @@ repository and create an issue by clicking the "Issues" tab and then clicking
 the green "New Issue" button. If you have found a problem with the [GatorGrader
 tool](https://github.com/gkapfham/gatorgrader) and the way that it checks you
 assignment, then you can follow the aforementioned steps to create an issue in
-this repository. To ensure that your issue is properly resolved, please provide
+its repository. To ensure that your issue is properly resolved, please provide
 as many details as is possible about the problem that you experienced.
 
 ## Assistance
