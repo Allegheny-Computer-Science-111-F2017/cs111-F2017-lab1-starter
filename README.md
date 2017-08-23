@@ -1,12 +1,11 @@
 # cs111-F2017-lab1
 
 Designed for use with [GitHub Classroom](https://classroom.github.com/), this
-repository contains the solution for Laboratory 1 in Computer Science 111.
-Since the Travis builds for this repository will fail (as evidenced by a red
-&#x2717; appearing in the commit logs instead of a green &#x2714;), the
-programmer is responsible for completing all of the steps needed to satisfy the
-requirements for the assignment, thus causing a &#x2714; to appear in the
-commit logs.
+repository contains the solution for Laboratory 1 in Computer Science 111. Since
+the Travis builds for this repository will fail (as evidenced by a red &#x2717;
+appearing in the commit logs instead of a green &#x2714;), the programmer is
+responsible for completing all of the steps needed to satisfy the requirements
+for the assignment, thus causing a &#x2714; to appear in the commit logs.
 
 ## Introduction
 
@@ -76,7 +75,7 @@ evaluate your assignment, you can type the command `./gatorgrader.sh --check`.
 
 Running this command will produce a lot of output that you should carefully
 inspect. If the last line of the output indicates that GatorGrader judges that
-there are no mistakes in the assignent, then this means that your source code
+there are no mistakes in the assignment, then this means that your source code
 and writing are passing all of the automated checks. However, if the last line
 of the output indicates that there are mistakes, then you will need to
 understand what they are and then try to fix them.
@@ -119,7 +118,7 @@ BUILD SUCCESSFUL in 0s
 
 This assignment uses [Travis CI](https://travis-ci.com/) to automatically run
 the checking program every time you commit to your GitHub repository. This
-checking will start as soon as you have accepted the assignnment, thus creating
+checking will start as soon as you have accepted the assignment, thus creating
 your own private repository, and the course instructor enables Travis for it. If
 you are using Travis for the first time, you will need to authorize Travis CI
 to access the private repositories that you created on GitHub.
