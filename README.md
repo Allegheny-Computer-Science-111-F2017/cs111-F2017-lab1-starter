@@ -115,6 +115,26 @@ BUILD SUCCESSFUL in 0s
 2 actionable tasks: 1 executed, 1 up-to-date
 ```
 
+## Travis
+
+This assignment uses [Travis CI](https://travis-ci.com/) to automatically run
+the checking program every time you commit to your GitHub repository. This
+checking will start as soon as you have accepted the assignnment, thus creating
+your own private repository, and the course instructor enables Travis for it. If
+you are using Travis for the first time, you will need to authorize Travis CI
+to access the private repositories that you created on GitHub.
+
+## Requirements
+
+The GatorGrader software that supports the checking of this assignment was
+developed for the following software and versions:
+
+- gradle 4.1
+- java 1.8.0
+- mdl version 0.4.0
+- proselint 0.7.0
+- python 3.5.2
+
 ## Assistance
 
 If you are having trouble completing any part of this project, please talk with
