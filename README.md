@@ -1,17 +1,12 @@
 # cs111-F2017-lab1-solution
 
 Designed for use with [GitHub Classroom](https://classroom.github.com/), this
-repository contains the solution for Laboratory 1 in Computer Science 111.
-
-<!---
-
-Since the Travis builds for this repository will fail (as evidenced by a red
+repository contains the solution for Laboratory 1 in Computer Science 111. Since
+the Travis builds for this repository will initially fail (as evidenced by a red
 &#x2717; appearing in the commit logs instead of a green &#x2714;), the
 programmer is responsible for completing all of the steps needed to satisfy the
 requirements for the assignment, thus causing a &#x2714; to appear in the commit
 logs.
-
--->
 
 ## Introduction
 
@@ -124,24 +119,35 @@ BUILD SUCCESSFUL in 0s
 
 If the course instructor updates the provided material for this assignment and
 you would like to receive these updates, then you can type this command in the
-root of the GitHub repository for this assignment:
+main directory for this assignment:
 
 ```
 ./gatorgrader.sh --update git@github.com:Allegheny-Computer-Science-111-F2017/cs111-F2017-lab1-starter.git
 ```
 
-Please note that, if you have edited the files that the course instructor
-updated, running this command may lead to Git merge conflicts that you
-will have to resolve with the help of the instructor or a teaching assistant.
+You should only need to type this command once; typing the command additional
+times may yield an error messages but will not negatively influence the state of
+your repository. Now, you are ready to download the updates provided by the
+course instructor by typing:
+
+```
+./gatorgrader.sh --download
+```
+
+This second command can be run whenever the course instructor needs to provide
+you with new source code for this assignment. However, please note that, if you
+have edited the files that the course instructor updated, running the previous
+command may lead to Git merge conflicts. If this happens, you may need to
+manually resolve them with the help of the instructor or a teaching assistant.
 
 ## Travis
 
 This assignment uses [Travis CI](https://travis-ci.com/) to automatically run
-the checking program every time you commit to your GitHub repository. This
+the checking programs every time you commit to your GitHub repository. This
 checking will start as soon as you have accepted the assignment, thus creating
 your own private repository, and the course instructor enables Travis for it. If
-you are using Travis for the first time, you will need to authorize Travis CI
-to access the private repositories that you created on GitHub.
+you are using Travis for the first time, you will need to authorize Travis CI to
+access the private repositories that you created on GitHub.
 
 ## Requirements
 
@@ -153,6 +159,18 @@ developed for the following software and versions:
 - mdl 0.4.0
 - proselint 0.7.0
 - python 3.5.2
+
+## Problems
+
+If you have found a problem with this assignment, then you can go to the
+[Computer Science 111 Lab 1
+Starter](https://github.com/Allegheny-Computer-Science-111-F2017/cs111-F2017-lab1-starter)
+repository and create an issue by clicking the "Issues" tab and then clicking
+the green "New Issue" button. If you have found a problem with the [GatorGrader
+tool](https://github.com/gkapfham/gatorgrader) and the way that it checks you
+assignment, then you can follow the aforementioned steps to create an issue in
+this repository. To ensure that your issue is properly resolved, please provide
+as many details as is possible about the problem that you experienced.
 
 ## Assistance
 
