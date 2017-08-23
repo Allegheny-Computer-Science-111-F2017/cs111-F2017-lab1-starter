@@ -53,11 +53,11 @@ UPDATE=""
 # the --update parameter accepts an additional argument
 while true; do
   case "$1" in
-    -v | --verbose ) VERBOSE=true; shift ;;
-    -s | --start )   START=true; shift ;;
-    -c | --check )   CHECK=true; shift ;;
-    -d | --download ) CHECK=true; shift ;;
-    -u | --update ) UPDATE="$3"; shift; shift ;;
+    -v | --verbose )  VERBOSE=true; shift ;;
+    -s | --start )    START=true; shift ;;
+    -c | --check )    CHECK=true; shift ;;
+    -d | --download ) DOWNLOAD=true; shift ;;
+    -u | --update )   UPDATE="$3"; shift; shift ;;
     -- ) shift; break ;;
     * ) break ;;
   esac
