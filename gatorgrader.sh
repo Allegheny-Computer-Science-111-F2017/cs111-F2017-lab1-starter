@@ -72,8 +72,8 @@ fi
 if [ "$UPDATE" ]; then
   printf "%s\n" "${red}Updating the provided source code...${end}"
   echo ""
-  git remote add origin "$UPDATE"
-  git pull origin master
+  git remote add download "$UPDATE"
+  git pull download master
   printf "%s\n" "${red}...Finished updating the provided source code${end}"
   echo ""
 fi
