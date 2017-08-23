@@ -130,7 +130,7 @@ developed for the following software and versions:
 
 - gradle 4.1
 - java 1.8.0
-- mdl version 0.4.0
+- mdl 0.4.0
 - proselint 0.7.0
 - python 3.5.2
 
