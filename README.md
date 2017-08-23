@@ -1,11 +1,17 @@
-# cs111-F2017-lab1
+# cs111-F2017-lab1-solution
 
 Designed for use with [GitHub Classroom](https://classroom.github.com/), this
-repository contains the solution for Laboratory 1 in Computer Science 111. Since
-the Travis builds for this repository will fail (as evidenced by a red &#x2717;
-appearing in the commit logs instead of a green &#x2714;), the programmer is
-responsible for completing all of the steps needed to satisfy the requirements
-for the assignment, thus causing a &#x2714; to appear in the commit logs.
+repository contains the solution for Laboratory 1 in Computer Science 111.
+
+<!---
+
+Since the Travis builds for this repository will fail (as evidenced by a red
+&#x2717; appearing in the commit logs instead of a green &#x2714;), the
+programmer is responsible for completing all of the steps needed to satisfy the
+requirements for the assignment, thus causing a &#x2714; to appear in the commit
+logs.
+
+-->
 
 ## Introduction
 
@@ -113,6 +119,20 @@ Travis is tremendous.
 BUILD SUCCESSFUL in 0s
 2 actionable tasks: 1 executed, 1 up-to-date
 ```
+
+## Updates
+
+If the course instructor updates the provided material for this assignment and
+you would like to receive these updates, then you can type this command in the
+root of the GitHub repository for this assignment:
+
+```
+./gatorgrader.sh --update git@github.com:Allegheny-Computer-Science-111-F2017/cs111-F2017-lab1-starter.git
+```
+
+Please note that, if you have edited the files that the course instructor
+updated, running this command may lead to Git merge conflicts that you
+will have to resolve with the help of the instructor or a teaching assistant.
 
 ## Travis
 
