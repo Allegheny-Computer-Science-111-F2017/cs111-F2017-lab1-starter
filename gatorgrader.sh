@@ -34,7 +34,7 @@ cyn=$'\e[1;36m'
 end=$'\e[0m'
 
 # define the viable command-line arguments for gatorgrader.sh
-OPTS=`getopt -o vsc: --long verbose,start,check -- "$@"`
+OPTS=`getopt -o vsc: --long verbose,start,check,update -- "$@"`
 
 # parsing did not work correctly, give an error
 if [ $? != 0 ] ; then echo "gatorgrader.sh could not parse the options!" >&2 ; exit 1 ; fi
@@ -46,13 +46,16 @@ eval set -- "$OPTS"
 VERBOSE=false
 START=false
 CHECK=false
+UPDATE=""
 
 # set the variables based on the command-line arguments
+# the --update parameter accepts an additional argument
 while true; do
   case "$1" in
     -v | --verbose ) VERBOSE=true; shift ;;
     -s | --start )   START=true; shift ;;
     -c | --check )   CHECK=true; shift ;;
+    -u | --update ) UPDATE="$3"; shift; shift ;;
     -- ) shift; break ;;
     * ) break ;;
   esac
@@ -65,10 +68,20 @@ if [ "$VERBOSE" = true ]; then
   echo CHECK=$CHECK
 fi
 
+# VERBOSE: Display the values of the variables
+if [ "$UPDATE" ]; then
+  printf "%s\n" "${red}Updating the provided source code...${end}"
+  echo ""
+  git remote add origin "$UPDATE"
+  git pull origin master
+  printf "%s\n" "${red}...Finished updating the provided source code${end}"
+  echo ""
+fi
+
 # START: Initialize the git submodule and the check it out
 if [ "$START" = true ]; then
   echo ""
-  printf "%s\n" "${red}Getting ready to check the assignment with GatorGrader!${end}"
+  printf "%s\n" "${red}Getting ready to check the assignment with GatorGrader...${end}"
   echo ""
   echo "Starting to initialize the submodule..."
   git submodule update --init
@@ -77,7 +90,7 @@ if [ "$START" = true ]; then
   cd ..
   echo "... Finished Initializing the submodule"
   echo ""
-  printf "%s\n" "${red}...Finished getting ready to check the assignment with GatorGrader!${end}"
+  printf "%s\n" "${red}...Finished getting ready to check the assignment with GatorGrader${end}"
   echo ""
 fi
 
