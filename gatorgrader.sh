@@ -34,7 +34,7 @@ cyn=$'\e[1;36m'
 end=$'\e[0m'
 
 # define the viable command-line arguments for gatorgrader.sh
-OPTS=`getopt -o vsc: --long verbose,start,check,update -- "$@"`
+OPTS=`getopt -o vsc: --long verbose,start,check,update,download -- "$@"`
 
 # parsing did not work correctly, give an error
 if [ $? != 0 ] ; then echo "gatorgrader.sh could not parse the options!" >&2 ; exit 1 ; fi
@@ -46,6 +46,7 @@ eval set -- "$OPTS"
 VERBOSE=false
 START=false
 CHECK=false
+DOWNLOAD=false
 UPDATE=""
 
 # set the variables based on the command-line arguments
@@ -55,6 +56,7 @@ while true; do
     -v | --verbose ) VERBOSE=true; shift ;;
     -s | --start )   START=true; shift ;;
     -c | --check )   CHECK=true; shift ;;
+    -d | --download ) CHECK=true; shift ;;
     -u | --update ) UPDATE="$3"; shift; shift ;;
     -- ) shift; break ;;
     * ) break ;;
@@ -68,13 +70,24 @@ if [ "$VERBOSE" = true ]; then
   echo CHECK=$CHECK
 fi
 
-# VERBOSE: Display the values of the variables
-if [ "$UPDATE" ]; then
+# DOWNLOAD: Download the new code from a Git remote
+if [ "$DOWNLOAD" = true ]; then
   printf "%s\n" "${red}Updating the provided source code...${end}"
   echo ""
-  git remote add download "$UPDATE"
   git pull download master
+  echo ""
   printf "%s\n" "${red}...Finished updating the provided source code${end}"
+  echo ""
+fi
+
+# UPDATE: Get ready for the download from a Git remote
+if [ "$UPDATE" ]; then
+  printf "%s\n" "${red}Getting ready to update the provided source code...${end}"
+  echo ""
+  git remote add download "$UPDATE"
+  echo "Making a connection to $UPDATE"
+  echo ""
+  printf "%s\n" "${red}...Finished getting ready to update the provided source code${end}"
   echo ""
 fi
 
