@@ -87,7 +87,7 @@ guides will help you to understand how to use both [GitHub](http://github.com) a
 To do well on this assignment, you should also read Chapters 1 and 2 in the
 course textbook, paying particularly close attention to Sections 1.5 and 2.1.
 Please see the course instructor or one of the teaching assistants or tutors if
-you have questions any of these reading assignments.
+you have questions about any of these reading assignments.
 
 ## Commands
 
