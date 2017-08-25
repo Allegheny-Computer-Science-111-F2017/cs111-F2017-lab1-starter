@@ -165,22 +165,22 @@ if [ "$CHECK" = true ]; then
   python3 gatorgrader/gatorgrader.py --directories writing . --checkfiles reflection.md README.md
   determine_exit_code $?
   # --> GatorGrader CHECK: the correct number of comments in the Java code
-  python3 gatorgrader/gatorgrader.py --directories src/main/java/labone/ \
+  python3 gatorgrader/gatorgrader.py --nowelcome --directories src/main/java/labone/ \
                                      --checkfiles DisplayOutput.java --singlecomments 2 --multicomments 2 --language Java
   determine_exit_code $?
   # --> GatorGrader CHECK: the "new Date()" fragment exists in the code at least once
-  python3 gatorgrader/gatorgrader.py --directories src/main/java/labone \
+  python3 gatorgrader/gatorgrader.py --nowelcome --directories src/main/java/labone \
                                      --checkfiles DisplayOutput.java --fragments "new Date()" --fragmentcounts 1
   determine_exit_code $?
   # --> GatorGrader CHECK: at least 4 "println()" fragment exists in the code
-  python3 gatorgrader/gatorgrader.py --directories src/main/java/labone \
+  python3 gatorgrader/gatorgrader.py --nowelcome --directories src/main/java/labone \
                                      --checkfiles DisplayOutput.java --fragments "println(" --fragmentcounts 4
   determine_exit_code $?
   # --> GatorGrader CHECK: running the program produces exactly 4 lines of output
-  python3 gatorgrader/gatorgrader.py --commands "gradle run" --outputlines 4 --languages Java
+  python3 gatorgrader/gatorgrader.py --nowelcome --commands "gradle run" --outputlines 4 --languages Java
   determine_exit_code $?
   # --> GatorGrader CHECK: the reflection contains at least 2 paragraphs
-  python3 gatorgrader/gatorgrader.py --directories writing --checkfiles reflection.md --paragraphs 2
+  python3 gatorgrader/gatorgrader.py --nowelcome --directories writing --checkfiles reflection.md --paragraphs 2
   determine_exit_code $?
   echo ""
   printf "%s\n" "${blu}... Finished checking with GatorGrader${end}"
