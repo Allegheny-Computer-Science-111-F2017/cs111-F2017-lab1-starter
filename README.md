@@ -167,7 +167,7 @@ manually resolve them with the help of the instructor or a teaching assistant.
 ## Travis
 
 This assignment uses [Travis CI](https://travis-ci.com/) to automatically run
-the checking programs every time you commit to your GitHub repository. This
+the checking programs every time you commit to your GitHub repository. The
 checking will start as soon as you have accepted the assignment, thus creating
 your own private repository, and the course instructor enables Travis for it. If
 you are using Travis for the first time, you will need to authorize Travis CI to
@@ -198,11 +198,15 @@ as many details as is possible about the problem that you experienced. If you
 discover a problem with the laboratory assignment sheet, then please raise an
 issue in the
 [cs111-F2017-labs](https://github.com/Allegheny-Computer-Science-111-F2017/cs111-F2017-labs)
-repository and mention this assignment.
+repository and mention this assignment. Students who find and use the
+appropriate GitHub issue tracker to correctly document a mistake in any aspect
+of this laboratory assignment will receive extra credit towards their grade for
+it.
 
 ## Assistance
 
-If you are having trouble completing any part of this project, please talk with
-either the course instructor or a teaching assistant during the laboratory
-session. Alternatively, you may ask questions in the Slack team for this course.
-Finally, you can schedule a meeting during the course instructor's office hours.
+If you are having trouble completing any part of this project, then please talk
+with either the course instructor or a teaching assistant during the laboratory
+session. Alternatively, you may ask questions in the Slack team for this
+course. Finally, you can schedule a meeting during the course instructor's
+office hours.
