@@ -67,10 +67,12 @@ The instructor will reduce a programmer's grade for this assignment if the red
 &#x2717; appears on the last commit in GitHub immediately before the
 assignment's due date.
 
-Available in the `assignment/` directory, the carefully formatted PDF assignment
-sheet for this project provides more details about the steps that a programmer
-should take to complete this assignment. You can also view this same PDF of the
-assignment sheet by visiting the listing of laboratories on the course web site.
+Available for download at [Computer Science 111 Lab
+1](https://github.com/Allegheny-Computer-Science-111-F2017/cs111-F2017-labs/releases/download/cs111F2017_lab01-1.0.1/cs111F2017_lab01.pdf),
+the carefully formatted assignment sheet for this project provides more details
+about the steps that a computer scientist should take to complete this
+assignment. You can also view this same assignment sheet by visiting the
+listing of laboratories on the course web site.
 
 ## Learning
 
@@ -184,15 +186,19 @@ developed for the following software and versions:
 
 ## Problems
 
-If you have found a problem with this assignment, then you can go to the
-[Computer Science 111 Lab 1
+If you have found a problem with this assignment's provided source code, then
+you can go to the [Computer Science 111 Lab 1
 Starter](https://github.com/Allegheny-Computer-Science-111-F2017/cs111-F2017-lab1-starter)
 repository and create an issue by clicking the "Issues" tab and then clicking
 the green "New Issue" button. If you have found a problem with the [GatorGrader
 tool](https://github.com/gkapfham/gatorgrader) and the way that it checks you
 assignment, then you can follow the aforementioned steps to create an issue in
 its repository. To ensure that your issue is properly resolved, please provide
-as many details as is possible about the problem that you experienced.
+as many details as is possible about the problem that you experienced. If you
+discover a problem with the laboratory assignment sheet, then please raise an
+issue in the
+[cs111-F2017-labs](https://github.com/Allegheny-Computer-Science-111-F2017/cs111-F2017-labs)
+repository and mention this assignment.
 
 ## Assistance
 
