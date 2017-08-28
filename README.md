@@ -117,7 +117,7 @@ program's source code if it is a correct program) the program using the command
 - `gradle tasks`: display details about the Gradle system
 
 To run one of these commands, you must be in the main directory for this
-assignment where the `gradle.build` file is located. Then, you can type the
+assignment where the `build.gradle` file is located. Then, you can type the
 command in the terminal and study the output.
 
 ## Output
@@ -150,7 +150,7 @@ main directory for this assignment:
 ```
 
 You should only need to type this command once; typing the command additional
-times may yield an error messages but will not negatively influence the state of
+times may yield an error message but will not negatively influence the state of
 your repository. Now, you are ready to download the updates provided by the
 course instructor by typing:
 
