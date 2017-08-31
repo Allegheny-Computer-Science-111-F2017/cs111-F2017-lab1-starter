@@ -204,7 +204,7 @@ its repository. To ensure that your issue is properly resolved, please provide
 as many details as is possible about the problem that you experienced. If you
 discover a problem with the laboratory assignment sheet, then please raise an
 issue in the
-[cs111-F2017-labs](https://github.com/Allegheny-Computer-Science-111-F2017/cs111-F2017-labs)
+[cs111-F2017-lab-sheets](https://github.com/Allegheny-Computer-Science-111-F2017/cs111-F2017-lab-sheets)
 repository and mention this assignment.
 
 Students who find, and use the appropriate GitHub issue tracker to correctly
