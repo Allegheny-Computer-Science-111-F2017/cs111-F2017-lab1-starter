@@ -120,6 +120,13 @@ To run one of these commands, you must be in the main directory for this
 assignment where the `build.gradle` file is located. Then, you can type the
 command in the terminal and study the output.
 
+If the course instructor publishes a new version of GatorGrader and asks you to
+access it, then you need change into the tool's directory by typing `cd
+gatorgrader`. Then, you can type the command `git pull` to download the new
+source code for the GatorGrader tool. If this command completes successfully,
+then you can return to the main directory for this Laboratory assignment by
+typing `cd ..` and then continuing your work.
+
 ## Output
 
 Typing the command `gradle run` in the terminal window produces the following
