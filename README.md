@@ -68,7 +68,7 @@ The instructor will reduce a programmer's grade for this assignment if the red
 assignment's due date.
 
 Available for download at [Computer Science 111 Lab
-1](https://github.com/Allegheny-Computer-Science-111-F2017/cs111-F2017-lab-sheets/releases/download/cs111F2017_lab01-1.0.3/cs111F2017_lab01.pdf),
+1](https://github.com/Allegheny-Computer-Science-111-F2017/cs111-F2017-lab-sheets/releases/download/cs111F2017_lab01-1.0.4/cs111F2017_lab01.pdf),
 the carefully formatted assignment sheet for this project provides more details
 about the steps that a computer scientist should take to complete this
 assignment. You can also view this same assignment sheet by visiting the listing
