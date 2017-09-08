@@ -67,8 +67,14 @@ The instructor will reduce a programmer's grade for this assignment if the red
 &#x2717; appears on the last commit in GitHub immediately before the
 assignment's due date.
 
+<!---
+
+NOTE: Had to do a release for two files due to bug fixes. Not standard.
+
+-->
+
 Available for download at [Computer Science 111 Lab
-1](https://github.com/Allegheny-Computer-Science-111-F2017/cs111-F2017-lab-sheets/releases/download/cs111F2017_lab01-1.0.4/cs111F2017_lab01.pdf),
+1](https://github.com/Allegheny-Computer-Science-111-F2017/cs111-F2017-lab-sheets/releases/download/cs111F2017_lab01_lab02-1.0.2/cs111F2017_lab01.pdf),
 the carefully formatted assignment sheet for this project provides more details
 about the steps that a computer scientist should take to complete this
 assignment. You can also view this same assignment sheet by visiting the listing
