@@ -25,7 +25,7 @@ before_install:
 
 # command to install dependencies of gatorgrader
 install:
-  - pip install --user proselint
+  - pip install proselint
   - ./gatorgrader.sh --start
   - cd gatorgrader
   - pip3 install --upgrade pip
