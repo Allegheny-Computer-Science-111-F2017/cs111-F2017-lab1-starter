@@ -16,7 +16,7 @@ PROFESSOR TASK LIST:
 PROFESSOR PROBLEMS?
 
   * Contact Gregory M. Kapfhammer by email or Slack
-  * Raise an issue in the GitHub repository for this assignment
+  * Raise an issue in the GitHub repository for this assignment starter
 
 -->
 
