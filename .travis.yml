@@ -1,10 +1,15 @@
 sudo: required
 dist: trusty
+language: python
+python:
+  - '3.5'
+before_install:
+  - jdk_switcher use oraclejdk8
 
-# use the Java language and require JDK 8
-language: java
-jdk:
-  - oraclejdk8
+# # use the Java language and require JDK 8
+# language: java
+# jdk:
+#   - oraclejdk8
 
 # # ensure that the use of the latest version of gradle
 # before_script:
